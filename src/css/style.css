@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    overflow: hidden;
+}
+
+body{
+    background: url(../image/fundo1.jpg) center, no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.newBackground{
+    background: url(../image/fundo2.jpg);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px 0 20px;
+    margin-bottom: 10rem;
+}
+
+header h1{
+    text-transform: uppercase;
+}
+
+.changeColor{
+    border: none;
+    background: #000;
+    color: #fff;
+    padding: 0.7rem;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+header nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li{
+    font-size: 1.5rem;
+}
+
+main h2{
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+   height: 17rem;
+   width: 20rem;
+   display: flex;
+   background-color: #e9e6e6;
+   align-items: center;
+   justify-content: center; 
+   border-radius: 15px;
+   margin-top: 10px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form input{
+    width: 15rem;
+    margin: 0.7rem 0;
+    outline: none;
+    height: 1.4rem;
+}
+
+.form textarea{
+    width: 15rem;
+    height: 4rem;
+    margin-bottom: 1.2rem;
+}
+
+.form .btn{
+    height: 2rem;
+    background-color: rgb(195, 132, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1rem;
+}
