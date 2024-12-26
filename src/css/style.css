@@ -113,6 +113,12 @@ main h2{
     cursor: pointer;
     color: #fff;
     font-size: 1rem;
+    transition: all ease 0.8s;
+}
+
+.form .btn:hover{
+    background-color: #41025a;
+    transform: scale(1.1,1.2);
 }
 
 @media(min-width: 320px) and (max-width: 480px){
