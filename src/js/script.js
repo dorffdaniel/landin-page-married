@@ -18,4 +18,10 @@ changeColor.addEventListener('click', ()=>{
     whiteColor.forEach((percorre)=>{
         percorre.classList.toggle('coresBrancas')
     })
-})
+});
+
+let btnConferirServicos = document.querySelector('.btnConferirServicos');
+let conteudoServicos = document.querySelector('.servicos');
+btnConferirServicos.addEventListener('click',()=>{
+    conteudoServicos.classList.toggle('mostrar');
+});
