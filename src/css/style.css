@@ -187,35 +187,4 @@ nav ul li:hover{
     text-transform: uppercase;
 }
 
-@media(min-width: 320px) and (max-width: 480px){
-    body{
-        background: url(../image/fundo1.jpg) center, no-repeat;
-        background-size: cover;
-    }
-    
-    .newBackground{
-        background: url(../image/fundo2.jpg) center;
-        background-size: cover;
-    }
-    
-    header{
-        flex-direction: column;
-        align-items: center;
-        gap: 5px;
-    }
-    
-    header h1{
-        font-size: 1rem;
-        margin-bottom: 8px;
-    }
 
-    main h2{
-        font-size: 1.6rem;
-        text-align: center;
-        padding: 0 5px;
-    }
-
-    .box{
-        width: 18rem;
-    }
-}
