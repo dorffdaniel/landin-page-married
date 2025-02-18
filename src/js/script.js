@@ -25,3 +25,17 @@ let conteudoServicos = document.querySelector('.servicos');
 btnConferirServicos.addEventListener('click',()=>{
     conteudoServicos.classList.toggle('mostrar');
 });
+
+let cardImgs = document.querySelectorAll('.imgs');
+let conteudoMensagens = document.querySelectorAll('.conteudoMensagem');
+cardImgs.forEach((event, indice)=>{
+    event.addEventListener('mouseover', ()=>{
+        conteudoMensagens[indice].classList.add('ativada');
+    })
+})
+
+cardImgs.forEach((e, indice)=>{
+    e.addEventListener('mouseout', ()=>{
+        conteudoMensagens[indice].classList.remove('ativada');
+    })
+})
